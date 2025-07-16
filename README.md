@@ -14,7 +14,7 @@ Then, the numeric data called "Friends_circle_size" is sorted into two bins (mor
 \
 <img width="747" height="227" alt="Screenshot 2025-07-16 at 11 06 10 AM" src="https://github.com/user-attachments/assets/1000634e-a057-41bf-88da-8f89fc07ecd2" />
 \
-Scikit-learn's "LabelEncoder" is then utilized to alter the dataset by using a "0" for the "less_friends" bin and a "1" for the "more_friends" bin.\
+Scikit-learn's "LabelEncoder" is utilized to alter the dataset by using a "0" for the "less_friends" bin and a "1" for the "more_friends" bin.\
 The other string features in the dataset (Stage_fear, Drained_after_socializing, and Personality) are then also encoded to numeric values.\
 \
 To train and test the data, scikit-learn's "train_test_split" function is used by separating the data into X and y variables.\
